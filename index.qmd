@@ -6,6 +6,9 @@ lang: de
 embed-resources: true
 title-block-banner: true
 theme: sketchy
+toc: true
+license: "CC BY-SA"
+link-external-newwindow: true
 author:
   name: Tina Transparenz
   orcid: 0000-0000-0000-0000
@@ -18,20 +21,19 @@ author:
 
 ![](tina.png){fig-align="left" width="30%"}
 
-Hallo, ich bin Tina Transparenz! Ich arbeite als wissenschaftliche Mitarbeiterin und habe eine besondere Leidenschaft für Open Science. Für mich bedeutet Forschung nicht nur, neues Wissen zu schaffen, sondern dieses Wissen auch offen, nachvollziehbar und zugänglich zu machen – für andere Forschende und für die Gesellschaft. Ich setze mich dafür ein, dass Wissenschaft transparenter wird und alle die Möglichkeit haben, daran teilzuhaben.
+Hallo, ich bin *Tina Transparenz*! Ich arbeite als **wissenschaftliche Mitarbeiterin** und habe eine besondere Leidenschaft für ***Open Science***. Für mich bedeutet Forschung nicht nur, neues Wissen zu schaffen, sondern dieses Wissen auch offen, nachvollziehbar und zugänglich zu machen – für andere Forschende und für die Gesellschaft. Ich setze mich dafür ein, dass Wissenschaft transparenter wird und alle die Möglichkeit haben, daran teilzuhaben.
 
 Du möchtest mehr über die Open-Science-Bewegung erfahren? Dann starte am besten mit der [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686).
 
 ::: {.panel-tabset .nav-pills}
 ## Ausbildung
 
--   **Bachelor of Arts (BA) in Sozialwissenschaften** *Open Knowledge University, Open City* Thesis: *„Transparenz in der Wissenschaftskommunikation: Wie offene Daten Vertrauen schaffen“*
-
--   **Master of Arts (MA) in Science & Society** *Collaborative Research Institute, Shareville* Thesis: *„Open Peer Review: Chancen und Herausforderungen für die wissenschaftliche Gemeinschaft“*
+- **Bachelor of Arts (BA) in Sozialwissenschaften**, *Open Knowledge University - Open City*; Thesis: *„Transparenz in der Wissenschaftskommunikation: Wie offene Daten Vertrauen schaffen“*
+- **Master of Arts (MA) in Science & Society**, *Collaborative Research Institute - Shareville*; Thesis: *„Open Peer Review: Chancen und Herausforderungen für die wissenschaftliche Gemeinschaft“*
 
 ## Promotion
 
--   **PhD Candidate in Open Science & Transparency Studies** *University of Transparency, Transparent Town* Dissertationsthema: *„Die Infrastruktur der Offenheit: Wie digitale Plattformen die Zukunft kollaborativer Forschung gestalten“*
+- **PhD Candidate in Open Science & Transparency Studies**, *University of Transparency - Transparent Town*; Dissertationsthema: *„Die Infrastruktur der Offenheit: Wie digitale Plattformen die Zukunft kollaborativer Forschung gestalten“*
 
 ## Forschungsschwerpunkte
 
@@ -47,3 +49,99 @@ Du möchtest mehr über die Open-Science-Bewegung erfahren? Dann starte am beste
 -   Organisation von Workshops zu Open Science Practices
 -   Beratung von Forschungsgruppen zur Implementierung von Open Data Strategien
 :::
+
+\ 
+
+## Wie erstelle ich eine persönliche Webseite?
+
+Viele Wissenschaftler:innen präsentieren ihre Aktivitäten und Schwerpunkte mit persönlichen Webseiten, wie zum Beispiel hier:
+
+- <https://debruine.github.io/>
+- <https://timolueke.de/>
+- <https://jazznbass.github.io/homepage/>
+- <https://pawelkulawiak.github.io/>
+- <https://pawelkulawiak.github.io/tinat/>
+
+Eine persönliche Website ist somit eine digitale Visitenkarte und professionelles Aushängeschild. Besonders wertvoll ist auch die Möglichkeit der Wissenschaftskommunikation gegenüber der Öffentlichkeit (scientific blogging): Schwerpunkte in der Forschung und Lehre können in verständlicher Sprache aufgearbeitet werden, um die gesellschaftliche Relevanz anschaulich zu vermitteln.
+
+Mit Quarto (open-source scientific and technical publishing system) können entsprechende Webseiten erstellt und mit GitHub-Pages veröffentlicht werden. Alles kostenfrei! Die Erstellung der Webseiten erfolgt mit Rstudio, wobei keinerlei R-Vorkenntnisse nötig sind.
+
+Der abgebildete Workflow zeigt, wie eine persönliche Website – z. B. für **Tina Transparenz** – erstellt und veröffentlicht wird.
+
+---
+
+![](schema.png){fig-align="left" width="100%"}
+---
+
+### 1. Erstellung der Inhalte in RStudio mit Quarto
+- Inhalte werden in einer **Quarto-Datei (.qmd)** geschrieben.  
+- Verwendet wird **Markdown** für Texte, Bilder, Listen usw.  
+- Zusätzlich können Metadaten wie Titel, ORCID, Kontaktinfos und Formatoptionen angegeben werden.  
+
+---
+
+### 2. Rendern der Website
+- Aus der qmd-Datei wird durch den **Render-Prozess** eine **HTML-Seite** erzeugt.  
+- Die fertige Seite enthält Text, Bilder, Layout und ist lokal im Browser sichtbar.  
+
+---
+
+### 3. Veröffentlichung über GitHub Pages
+- Der erzeugte HTML-Code und weitere Dateien werden in ein **GitHub Repository** hochgeladen.  
+- Mit **GitHub Pages** wird die Website automatisch online veröffentlicht.  
+
+---
+
+\
+
+## Was ist GitHub & GitHub Pages?
+
+GitHub ist eine Plattform zur Versionsverwaltung und Zusammenarbeit für Software- und Datenprojekte.
+
+Mit GitHub kann man:
+
+- Projekte (z.B. Code und Daten) online speichern und verwalten (in sogenannten Repositories)
+- Änderungen dokumentieren und frühere Versionen wiederherstellen
+- Gemeinsam mit anderen an Projekten arbeiten
+- Dateien und Websites öffentlich zugänglich machen (z. B. mit GitHub Pages)
+- Neben offenen Publikationen (z.B. Open Educational Resources) können über GitHub auch Open Data (z. B. Datensätze) und Open Code (z. B. Analyse-Skripte) geteilt und für alle zugänglich gemacht werden.
+
+Um GitHub nutzen zu können, braucht man einen kostenlosen GitHub-Account. Mit diesem Account kann man Repositories anlegen, Dateien hochladen, Änderungen verwalten und eigene Webseiten veröffentlichen:
+
+- <https://github.com/>
+
+Die Website von Tina Transparenz ist in diesem Repositorium gespeichert.
+
+- <https://github.com/PawelKulawiak/tinat>
+
+\
+
+## Was ist Markdown?
+
+Markdown ist eine einfache Auszeichnungssprache, mit der Texte strukturiert (Überschriften, Listen, Links, Bilder usw.) geschrieben werden.
+
+- <https://www.markdownguide.org/getting-started/>
+
+\
+
+## Was ist Quarto?
+
+Quarto basiert auf Markdown und ist ein open-source wissenschaftliches und technisches Publishing-System. Quarto ermöglicht die Erstellung von Dokumenten, Präsentationen, Websites, Blogs und Büchern in verschiedenen Ausgabeformaten.
+
+- <https://quarto.org/>
+- <https://pawelkulawiak.github.io/quartozfl/>
+
+\
+
+## Was ist RStudio?
+
+RStudio ist die Arbeitsumgebung, in der man Quarto-Markdown-Dateien (qmd-Dateien) komfortabel schreibt und verwaltet. Quarto ist also direkt in RStudio integriert. Beim Rendern wird die qmd-Datei in ein fertiges Ausgabeformat umgewandelt – typischerweise eine HTML-Seite, aber auch PDF, Word oder Präsentationen sind möglich.
+
+- <https://posit.co/download/rstudio-desktop/>
+
+\
+
+## Weitere Links & Videos
+
+- <https://quarto.org/docs/get-started/hello/rstudio.html> (mit Video)
+- <https://pawelkulawiak.github.io/quartozfl/> (mit Video)
