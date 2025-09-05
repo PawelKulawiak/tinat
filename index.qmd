@@ -1,0 +1,49 @@
+---
+title: "Tina Transparenz"
+subtitle: "Wissenschaftliche Mitarbeiterin mit einer besonderen Leidenschaft für Open Science"
+format: html
+lang: de
+embed-resources: true
+title-block-banner: true
+theme: sketchy
+author:
+  name: Tina Transparenz
+  orcid: 0000-0000-0000-0000
+  email: tinat@transparency.org
+  url: https://pawelkulawiak.github.io/tinat
+  affiliations:
+    name: University of Transparency, Transparent Town
+    url: https://example.com/
+---
+
+![](tina.png){fig-align="left" width="30%"}
+
+Hallo, ich bin Tina Transparenz! Ich arbeite als wissenschaftliche Mitarbeiterin und habe eine besondere Leidenschaft für Open Science. Für mich bedeutet Forschung nicht nur, neues Wissen zu schaffen, sondern dieses Wissen auch offen, nachvollziehbar und zugänglich zu machen – für andere Forschende und für die Gesellschaft. Ich setze mich dafür ein, dass Wissenschaft transparenter wird und alle die Möglichkeit haben, daran teilzuhaben.
+
+Du möchtest mehr über die Open-Science-Bewegung erfahren? Dann starte am besten mit der [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686).
+
+::: {.panel-tabset .nav-pills}
+## Ausbildung
+
+-   **Bachelor of Arts (BA) in Sozialwissenschaften** *Open Knowledge University, Open City* Thesis: *„Transparenz in der Wissenschaftskommunikation: Wie offene Daten Vertrauen schaffen“*
+
+-   **Master of Arts (MA) in Science & Society** *Collaborative Research Institute, Shareville* Thesis: *„Open Peer Review: Chancen und Herausforderungen für die wissenschaftliche Gemeinschaft“*
+
+## Promotion
+
+-   **PhD Candidate in Open Science & Transparency Studies** *University of Transparency, Transparent Town* Dissertationsthema: *„Die Infrastruktur der Offenheit: Wie digitale Plattformen die Zukunft kollaborativer Forschung gestalten“*
+
+## Forschungsschwerpunkte
+
+-   Open Science & Open Data
+-   Open Peer Review
+-   Citizen Science
+-   Transparente Wissenschaftskommunikation
+-   Reproduzierbarkeit in den Sozialwissenschaften
+
+## Berufserfahrung
+
+-   Wissenschaftliche Mitarbeiterin, University of Transparency, Transparent Town
+-   Organisation von Workshops zu Open Science Practices
+-   Beratung von Forschungsgruppen zur Implementierung von Open Data Strategien
+:::
